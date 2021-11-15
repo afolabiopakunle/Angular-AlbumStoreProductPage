@@ -5,5 +5,10 @@ import { Http, Response } from '@angular/http';
 export class ProductService {
 
   private _albumUrl = '../assets/album.json';
-  constructor(private _http: Http) {}
+  constructor(private _http: Http) {
+
+  }
+  getAlbum(id: number) {
+
+  }
 }
