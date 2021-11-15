@@ -16,7 +16,6 @@ export class ProductDescriptionComponent implements OnInit {
     this._productService.getAlbum(1).subscribe(
       (response: Album) => {
         this.albumInfo = response
-        console.log(response)
       }
     )
   }
